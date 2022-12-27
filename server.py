@@ -8,7 +8,7 @@ while True:
         gifecemail.run()
     except Exception as e:
         print(e)
-    time.sleep(10)
+    time.sleep(30)
 
 
 #while True:
