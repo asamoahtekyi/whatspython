@@ -10,7 +10,13 @@ while True:
         gifecemailrtp.run()
     except Exception as e:
         print(e)
-    time.sleep(30)
+        try:
+            gifecemailrtp.print_me()
+            gifecemailrtp.run()
+        except Exception as e:
+            print(e)
+        
+    time.sleep(10)
 
 
 #while True:
