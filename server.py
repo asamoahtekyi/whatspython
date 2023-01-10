@@ -1,11 +1,13 @@
-import gifecemail
+import gifecemailstaff, gifecemailrtp
 import time
 
 
 while True:
     try:
-        gifecemail.print_me()
-        gifecemail.run()
+        gifecemailstaff.print_me()
+        gifecemailstaff.run()
+        gifecemailrtp.print_me()
+        gifecemailrtp.run()
     except Exception as e:
         print(e)
     time.sleep(30)
